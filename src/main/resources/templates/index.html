@@ -13,7 +13,7 @@
 <body>
 <div class="main">
     <h1>Informacje pogodowe: </h1>
-    <form class="row g-3" method="post" th:action="@{/weather}">
+    <form class="row g-3" method="get" th:action="@{/weather}">
         <div class="col-12">
             <label for="city" class="form-label">Wpisz miasto:</label>
             <input type="text" class="form-control" id="city" placeholder="np.London" name="city">
